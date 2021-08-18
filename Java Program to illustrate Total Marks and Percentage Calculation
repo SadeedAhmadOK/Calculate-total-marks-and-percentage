@@ -1,0 +1,24 @@
+public class Exercise1 {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+//        You can Replace Subject No 1,Subject No 2 ETC By Subject Name E.g Object Oriented Programming (OOP)
+        System.out.println("Enter marks of subject NO 1:");
+        int a = sc.nextInt();
+        System.out.println("Enter marks of subject NO 2:");
+        int b = sc.nextInt();
+        System.out.println("Enter marks of subject NO 3:");
+        int c = sc.nextInt();
+        System.out.println("Enter marks of subject NO 4:");
+        int d = sc.nextInt();
+        System.out.println("Enter marks of subject NO 5:");
+        int e = sc.nextInt();
+        int sum = a+b+c+e+d;
+        System.out.println("Total Marks you GOT out of 500 Are:");
+        System.out.println(sum);
+        int Percentage = (sum * 100/ 500);
+        System.out.println("The percentage of your marks is = " + Percentage + " %");
+        System.out.println("This program is made by Sadeed Ahmad");
+
+    }
+}
